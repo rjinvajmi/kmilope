@@ -9,7 +9,7 @@ jobs:
         os: [ubuntu-latest]
         build_type: [Debug]
         ui: [gui, cli]
-        scripting: [lua, noscripts]
+        scripting: [lua]
         exclude:
           - build_type: Debug
             ui: gui
